@@ -1,0 +1,111 @@
+#chatCard:hover{
+    background-color: rgb(46, 46, 46);
+    border-radius: 15px;
+}
+
+#followingPanel {
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 500px;
+    background-color: #242424;
+    border-radius: 12px;
+    color: #fff;
+}
+
+#searchPanel{
+    color: #fff;
+    padding: 25px;
+    position: absolute;
+    top: 80px;
+    left: 270px;
+    z-index: 2;
+    border: 1px solid gray;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+}
+
+#notificationPanel{
+    color: #fff;
+    padding: 25px;
+    position: absolute;
+    top: 230px;
+    left: 270px;
+    z-index: 2;
+    border: 1px solid gray;
+    background-color: black;
+    width: 350px;
+    height: 400px;
+}
+
+/* #otherUserMsg{
+    float: right;
+    background-color: aqua;
+} */
+/* #otherUserMsg::after{clear: both;} */
+
+#reelsBody{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    /* height: 600px; */
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#reelsCard{
+   
+}
+
+#reelsBtn{
+    background-color: transparent;
+    font-size: 35px;
+    border: 0;
+    color: #fff;
+}
+#reelsBtn:hover{
+    color: gray;
+    transition: .3s;
+}
+
+#commentInput{
+    background-color: rgb(19, 19, 19);
+    color: rgb(163, 163, 163);
+    border: 1px solid gray;
+}
+
+#commentsCards{
+    color: #fff;
+    padding: 25px;
+    position: absolute;
+    top: 355px;
+    left: 580px;
+    z-index: 2;
+    border: 1px solid gray;
+    background-color: black;
+    width: 330px;
+    height: 330px;
+    overflow-y: scroll;
+}
+
+#postShowPanel{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 550px;
+    background-color: #4b4b4b;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 2;
+}
+
